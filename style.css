@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-size: cover;
+    background-image: url(images/—Pngtree—rock\ paper\ scissors\ seamless\ pattern_15376231.png);
+}
+#opponent-choice{
+    width: 240px;
+    height: 240px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+#your-choice{
+    width: 240px;
+    height: 240px;
+    border: 1px solid gray;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+}
+#choices{
+    width: 243px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#choices img{
+    width: 80px;
+    height: 80px;
+}
